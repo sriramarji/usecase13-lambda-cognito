@@ -1,4 +1,4 @@
-output "lambda-function-arn"" {
+output "lambda-function-arn" {
     value = aws_iam_role.lambda_execution_role.arn
 }
 
