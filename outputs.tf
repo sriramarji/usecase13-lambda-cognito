@@ -9,3 +9,11 @@ output "my-lambda-function-arn" {
 output "my-lambda-name" {
     value = module.lambda.lambda-name
 }
+
+output "api_endpoint" {
+  value = module.apigateway.my_api_endpoint
+}
+
+output "api_id" {
+  value = module.apigateway.my_api_id
+}

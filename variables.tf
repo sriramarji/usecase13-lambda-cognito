@@ -31,5 +31,5 @@ variable "my-lambda_role_name" {
 variable "my-lambda_zip_path" {
     description = ""
     type = string
-    default = "./my-lambdafunction.zip"
+    default = "./lambda/my-lambdafunction.zip"
 }
