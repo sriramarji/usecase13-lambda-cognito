@@ -13,4 +13,5 @@ module "apigateway" {
     source = "./modules/apigateway"
 
     lambda_function_arn = module.lambda.lambda-function-arn
+    lambda_function_name = module.lambda.lambda-name
 }
