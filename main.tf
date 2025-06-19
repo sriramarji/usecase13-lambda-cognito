@@ -10,7 +10,7 @@ module "lambda" {
 }
 
 module "apigateway" {
-    source = ./modules/apigateway
+    source = "./modules/apigateway"
 
     lambda_function_arn = module.lambda.lambda-function-arn
 }
