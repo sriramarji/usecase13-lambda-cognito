@@ -1,4 +1,4 @@
-module "my-lambda" {
+module "lambda" {
     source = "./modules/lambda"
 
     function_name = var.my-function_name
@@ -8,6 +8,3 @@ module "my-lambda" {
     lambda_role_name = var.my-lambda_role_name
     lambda_zip_path = var.my-lambda_zip_path
 }
-
-
-
