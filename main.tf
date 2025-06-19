@@ -1,5 +1,5 @@
 module "my-lambda" {
-    source = ./modules/lambda
+    source = "./modules/lambda"
 
     function_name = var.my-function_name
     handler =   var.my-handler

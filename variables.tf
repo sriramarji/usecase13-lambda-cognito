@@ -13,7 +13,7 @@ variable "my-handler" {
 variable "my-runtime" {
     description = ""
     type = string
-    value = "python3.9"
+    default = "python3.9"
 }
 
 variable "my-environment_variables" {
@@ -25,7 +25,7 @@ variable "my-environment_variables" {
 variable "my-lambda_role_name" {
     description = ""
     type = string
-    default = lambda-role
+    default = "lambda-role"
 }
 
 variable "my-lambda_zip_path" {
