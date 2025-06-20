@@ -17,3 +17,15 @@ output "api_endpoint" {
 output "api_id" {
   value = module.apigateway.my_api_id
 }
+
+output "userpool_id" {
+  value = module.cognito.userpool_id
+}
+
+output "userpool_arn" {
+  value = module.cognito.userpool_arn
+}
+
+output "client_id" {
+  value = module.cognito.client_id
+}

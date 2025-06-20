@@ -33,3 +33,15 @@ variable "my-lambda_zip_path" {
     type = string
     default = "./lambda/my-lambdafunction.zip"
 }
+
+variable "user_pool_name" {
+  default = "demo_user_pool"
+}
+
+variable "app_client_name" {
+  default = "demo_app_client"
+}
+
+variable "domain_prefix" {
+  default = "demo-example"
+}
