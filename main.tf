@@ -22,7 +22,7 @@ module "cognito" {
   userpool_name   = var.user_pool_name
   appclient_name  = var.app_client_name
   domain_prefix    = var.domain_prefix
-  api_endpoint    = [module.apigateway.api_endpoint]
+  api_endpoint    = [module.apigateway.my_api_endpoint]
   default_user_username = "admin"
   default_user_email    = "bhaskarsaisri.arji@hcltech.com"
   default_user_password = "Admin@123"
